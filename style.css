@@ -1,0 +1,101 @@
+*{
+margin:0;
+padding:0;
+font-family:sans-serif;
+}
+body{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+.bgimage{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)), url('https://www.tuv.com/content-media-files/master-content/services/products/p05-medical/1665-tuv-rheinland-eu-medical-device-regulation-mdr-2017-745/fotolia_117124325_x_bearbeitet_sergey-nivens_core_4_3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    padding:10px;
+}
+.bgimage h1{
+    font-size:45px;
+    color:white;
+    padding-left: 50px;
+}
+.bgimage span{
+    color:blue;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    position:fixed;
+  top: 0;
+    left: 0;
+    width: 100%;
+   z-index: 999;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: white;
+  font-size:20px;
+    text-decoration: none;
+  }
+  nav ul li:hover a{
+  color:red;
+  }
+  .header-text h2{
+    font-size: 90px;
+    color:white;
+    padding-left:38px;
+    margin-top: 180px;
+}
+.header-text span{
+  color:green;
+}
+.header-text h3{
+  color:white;
+    padding-left:38px;
+    font-size:25px;
+}
+.header-text p{
+  color:white;
+    padding-left:38px;
+    font-size:18px;
+    margin-top:40px;
+}
+ .btn{
+  text-decoration: none;
+  display: inline-block;
+  padding:5px 10px;
+  background-color:green;
+  border:1px  solid green;
+  border-radius: 1rem;
+  font-size:18px;
+  color:white;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-weight:600;
+}
+.btn:hover{
+  background-color: white;
+  color:green;
+  box-shadow: 0 0 2rem solid green;
+
+}
